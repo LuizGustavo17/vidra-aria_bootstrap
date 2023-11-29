@@ -1,0 +1,50 @@
+body{
+    font-family: Roboto,sans-serif;
+}
+.navbar{
+    background-color: black;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: black;
+}
+
+#cabecalho .nav .nav-link, .navbar-brand, navbar-brand:hover{
+color: #fff
+}
+
+.navbar-toggler{
+    background-color: #fff;
+}
+
+.section-title{
+    font-family: Russo One, cursive;
+}
+
+#li1, #li2, #li3, #li4{
+    color: #fff;
+}
+
+.social-links li{
+list-style: none;
+display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+    color:black
+}
+#fale-conosco button{
+    background-color: black;
+    color: #fff;
+}
+form{
+    margin-left: 15px;
+}
+
+@media (max-width:767px) {
+    .carosel-item img{
+        height:280px;
+    }
+}
